@@ -1,0 +1,130 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.6">
+  <diagram name="Page-1" id="OCkU8sxH6I_CCqbzVbVf">
+    <mxGraphModel dx="1418" dy="1880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RWMeuIDsfDk5Qru2_uSt-1" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Customer Input" vertex="1">
+          <mxGeometry height="82" width="80" x="30" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="RWMeuIDsfDk5Qru2_uSt-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" value="Inventory Info Agent" vertex="1">
+          <mxGeometry height="82" width="80" x="450" y="29.06" as="geometry" />
+        </mxCell>
+        <mxCell id="RWMeuIDsfDk5Qru2_uSt-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" value="Quote Generation Agent" vertex="1">
+          <mxGeometry height="82" width="80" x="440" y="181" as="geometry" />
+        </mxCell>
+        <mxCell id="RWMeuIDsfDk5Qru2_uSt-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" value="Transaction Creation Agent" vertex="1">
+          <mxGeometry height="82" width="80" x="440" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="RWMeuIDsfDk5Qru2_uSt-8" edge="1" parent="1" source="RWMeuIDsfDk5Qru2_uSt-19" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.075;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.927;exitY=0.617;exitDx=0;exitDy=0;exitPerimeter=0;" target="RWMeuIDsfDk5Qru2_uSt-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="247.5" as="sourcePoint" />
+            <mxPoint x="330" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWMeuIDsfDk5Qru2_uSt-10" edge="1" parent="1" source="RWMeuIDsfDk5Qru2_uSt-19" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=-0.012;entryY=0.638;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="350.96" y="223.98000000000002" />
+            </Array>
+            <mxPoint x="280.96" y="223.98000000000002" as="sourcePoint" />
+            <mxPoint x="439.99999999999994" y="226.01999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWMeuIDsfDk5Qru2_uSt-12" edge="1" parent="1" source="RWMeuIDsfDk5Qru2_uSt-19" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.038;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.964;exitY=0.433;exitDx=0;exitDy=0;exitPerimeter=0;" target="RWMeuIDsfDk5Qru2_uSt-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="200" as="sourcePoint" />
+            <mxPoint x="330" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWMeuIDsfDk5Qru2_uSt-19" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Orchestrator" vertex="1">
+          <mxGeometry height="122" width="110" x="170" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="RWMeuIDsfDk5Qru2_uSt-37" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Check Inventory&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;&quot;&gt;Uses:&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;orchestrator_get_all&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;&quot;&gt;inventory,&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;orchestrator&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;_get_stock_level,&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;orchestrator_get_&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;supppier_delivery_date&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140.12" width="136.71" x="571.65" as="geometry" />
+        </mxCell>
+        <mxCell id="RWMeuIDsfDk5Qru2_uSt-38" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="520" y="220" as="sourcePoint" />
+            <mxPoint x="566" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWMeuIDsfDk5Qru2_uSt-40" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="523.29" y="60" as="sourcePoint" />
+            <mxPoint x="573.29" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWMeuIDsfDk5Qru2_uSt-41" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div&gt;&lt;b&gt;Quote History&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Uses: orchestrator_&lt;/div&gt;&lt;div&gt;search_quote_history&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="143.5" width="140" x="570" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="RWMeuIDsfDk5Qru2_uSt-44" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;b&gt;Fulfill Orders &amp;amp; Update DB&lt;/b&gt;&lt;div&gt;Uses:orchestrator&lt;/div&gt;&lt;div&gt;_create_transaction,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;orchestrator_&lt;/span&gt;&lt;/div&gt;&lt;div&gt;generate_financial_&lt;/div&gt;&lt;div&gt;report,orchestrator&lt;/div&gt;&lt;div&gt;_get_cash_balance&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="136.58" x="573.29" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="RWMeuIDsfDk5Qru2_uSt-45" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.938;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="566.45" y="380.92" as="sourcePoint" />
+            <mxPoint x="520" y="379.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWMeuIDsfDk5Qru2_uSt-47" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="20" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="RWMeuIDsfDk5Qru2_uSt-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Tool" vertex="1">
+          <mxGeometry height="30" width="60" x="30" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="RWMeuIDsfDk5Qru2_uSt-50" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="94" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="RWMeuIDsfDk5Qru2_uSt-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Agent" vertex="1">
+          <mxGeometry height="30" width="55" x="118" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="RWMeuIDsfDk5Qru2_uSt-53" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="180" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="RWMeuIDsfDk5Qru2_uSt-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Orchestrator/Customer&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="60" x="250" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="RWMeuIDsfDk5Qru2_uSt-57" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" target="RWMeuIDsfDk5Qru2_uSt-19" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="220" as="sourcePoint" />
+            <mxPoint x="160" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWMeuIDsfDk5Qru2_uSt-59" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="360" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="RWMeuIDsfDk5Qru2_uSt-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Helper Function" vertex="1">
+          <mxGeometry height="30" width="100" x="380" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="RWMeuIDsfDk5Qru2_uSt-61" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" value="get_all_inventory" vertex="1">
+          <mxGeometry height="120" width="120" x="860" y="10.059999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="RWMeuIDsfDk5Qru2_uSt-62" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" value="Search_quote_history" vertex="1">
+          <mxGeometry height="118.37" width="118.37" x="861.63" y="163.63" as="geometry" />
+        </mxCell>
+        <mxCell id="RWMeuIDsfDk5Qru2_uSt-63" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" value="create_transaction" vertex="1">
+          <mxGeometry height="118.37" width="118.37" x="861.63" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="RWMeuIDsfDk5Qru2_uSt-65" edge="1" parent="1" source="RWMeuIDsfDk5Qru2_uSt-63" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="720" y="351" as="sourcePoint" />
+            <mxPoint x="710" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWMeuIDsfDk5Qru2_uSt-66" edge="1" parent="1" source="RWMeuIDsfDk5Qru2_uSt-41" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="680" y="210" as="sourcePoint" />
+            <mxPoint x="860" y="232" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWMeuIDsfDk5Qru2_uSt-77" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.033;entryY=0.408;entryDx=0;entryDy=0;entryPerimeter=0;" target="RWMeuIDsfDk5Qru2_uSt-61" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="710" y="60" as="sourcePoint" />
+            <mxPoint x="830" y="90.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
